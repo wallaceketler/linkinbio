@@ -1,0 +1,53 @@
+<doctype html>
+<html>
+	<head>
+		<title>Wallace Ketler - Links</title>
+		<meta charset = "utf-8"/>
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1"/>
+		<link rel = "stylesheet" href = './style.css'/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
+		<script>
+			window.addEventListener('DOMContentLoaded', ()=>{
+				VANTA.TOPOLOGY({
+				el: "#vanta",
+				mouseControls: true,
+				touchControls: true,
+				gyroControls: false,
+				minHeight: 200.00,
+				minWidth: 200.00,
+				scale: 1.00,
+				scaleMobile: 1.00
+				})
+			})	
+		</script>
+		
+	</head>
+	
+	<body>
+		<div id = "vanta"></div>
+		<main>
+			<header>
+				<img src = "imagens/perfil.jpg" height = "200cm"/>
+				<h1>		@wallaceketler			</h1>
+			</header>
+			<ul>
+				<li>
+					<a href = "https://github.com/wallaceketler">Github</a>
+				</li>
+				<li>
+					<a href = "https://www.linkedin.com/in/wallace-ketler-melo-de-morais-7110a4238/">Linkedin</a>
+				</li>
+				<li>
+					<a href = "https://www.facebook.com/wallace.ketler/">Facebook</a>
+				</li>
+
+			</ul>
+			<script>
+				const main = document.querySelector('main')
+				console.log(main)
+				main.style.opacity = 1
+			</script>
+		</main>
+	</body>
+</html>
